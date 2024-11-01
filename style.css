@@ -1,0 +1,260 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+section {
+	background-color: #f7f7f7;
+	padding: 2em;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+audio {
+	width: 100%;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
+button {
+	background-color: #909990;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #68d3ce;
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+.fondo {
+	background-image: url('fondo.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.parallax {
+	background-image: url('parallax.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.parallax:hover {
+	transform: translateX(20px);
+}
+
+.animacion {
+	animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.lista-obra {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.lista-obra li {
+	margin-bottom: 20px;
+}
+
+.lista-obra img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.lista-obra h3 {
+	margin-top: 0;
+	color: #333;
+	font-weight: bold;
+}
+
+.lista-obra p {
+	margin-bottom: 10px;
+	color: #666;
+}
+.titulo {
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.biografia {
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #666;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.nombre {
+	font-weight: bold;
+	color: #333;
+}
+.galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .cuadro {
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .cuadro:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+  }
+  
+  .descripcion {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 20px;
+  }
+  body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  header h1 {
+	margin: 0;
+  }
+  
+  main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  .artista {
+	background-color: #f7f7f7;
+	padding: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .artista img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 20px;
+  }
+  
+  .contacto {
+	background-color: #fff;
+	padding: 20px;
+  }
+  
+  .contacto ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .contacto li {
+	margin-bottom: 10px;
+  }
+  
+  .contacto a {
+	text-decoration: none;
+	color: #337ab7;
+  }
+  
+  .contacto a:hover {
+	color: #23527c;
+  }
